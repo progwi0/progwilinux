@@ -1,11 +1,11 @@
 my linux distro!!!1!!
 
-![Screenshot from 2024-12-17 20-45-41](https://github.com/user-attachments/assets/16e49c7d-8cd7-4a7c-a5db-c519b7235dfb)
+![screenshot3](https://github.com/user-attachments/assets/612481cb-830a-43d8-a11b-21ac17f366a9)
 
 # iso and source code in releases!!1!!
 sowy :3
 
-![Screenshot from 2024-12-17 20-46-05](https://github.com/user-attachments/assets/76785f75-e2a4-4284-b40a-8eb43850f060)
+![screenshot1](https://github.com/user-attachments/assets/9b0e0221-b1b5-4607-8d44-a9077299e0a1)
 
 recommended:
 
@@ -17,4 +17,5 @@ recommended to run in qemu!
 
 you can use progwilinux as you want!
 
-![Screenshot from 2024-12-17 20-45-49](https://github.com/user-attachments/assets/ff6e6af3-0807-4e20-a2e9-8c41abc02bbd)
+![screenshot2](https://github.com/user-attachments/assets/c5ee597a-65fc-4d2e-9586-d58cd5abf1ab)
+
