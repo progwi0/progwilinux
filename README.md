@@ -11,7 +11,7 @@ recommended:
 
 memory: 4gb
 cores: 4
-system disk: 50gb (or 100gb i frogot)
+ssd/hdd: i frogot
 
 recommended to run in qemu!
 
