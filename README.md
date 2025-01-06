@@ -9,9 +9,9 @@ sowy :3
 
 recommended:
 
-memory: 4gb
-cores: 4
-ssd/hdd: i frogot
+memory: 2gb;
+cores: 2;
+ssd/hdd: i frogot;
 
 recommended to run in qemu!
 
