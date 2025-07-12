@@ -3,7 +3,7 @@
 
 Progwilinux - simple Linux in ~200MB!
 
-![screenshot4](https://github.com/user-attachments/assets/612481cb-830a-43d8-a11b-21ac17f366a9)
+![screenshot6](https://github.com/user-attachments/assets/612481cb-830a-43d8-a11b-21ac17f366a9)
 
 ## 🤷 Why Progwilinux?
 1. It's size is ~200MB.
@@ -16,7 +16,7 @@ Progwilinux - simple Linux in ~200MB!
 2. CPU Cores: 2+.
 3. Flash Drive: 2GB+.
 
-![screenshot6](https://github.com/user-attachments/assets/9b0e0221-b1b5-4607-8d44-a9077299e0a1)
+![screenshot4](https://github.com/user-attachments/assets/9b0e0221-b1b5-4607-8d44-a9077299e0a1)
 
 ## 😃 How i can help?
 You can make programs for progwilinux! (Make it with 0 DEPENDENCIES!)
