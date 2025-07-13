@@ -1,12 +1,12 @@
 # 🐧 Progwilinux
-🐧 Simple Linux in ~200MB!
+🐧 Simple Linux in ~400MB!
 
-Progwilinux - simple Linux in ~200MB!
+Progwilinux - simple Linux in ~400MB!
 
 ![screenshot6](https://github.com/user-attachments/assets/612481cb-830a-43d8-a11b-21ac17f366a9)
 
 ## 🤷 Why Progwilinux?
-1. It's size is ~200MB.
+1. It's size is ~400MB.
 2. All is OPEN-SOURCE!
 
 ![screenshot5](https://github.com/user-attachments/assets/c5ee597a-65fc-4d2e-9586-d58cd5abf1ab)
