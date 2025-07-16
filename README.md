@@ -12,7 +12,7 @@ Progwilinux - simple Linux in ~400MB!
 ![screenshot5](https://github.com/progwi0/progwilinux/blob/4b0e31c220967783110fc23a72e68bbcbd9010ad/img/screenshot5.png)
 
 ## 🖥️ System requirements:
-1. RAM: 2GB+.
+1. RAM: 4GB+.
 2. CPU Cores: 2+.
 3. Flash Drive: 2GB+.
 
