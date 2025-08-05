@@ -20,5 +20,6 @@ Progwilinux - simple Linux in ~400MB!
 
 ## 😃 How i can help?
 You can make programs for progwilinux! (Make it with 0 DEPENDENCIES!)
+Also you can give ideas! Just start a new discussion on https://progwilinux.flarum.cloud/!
 
 (i tested progwilinux in qemu)
