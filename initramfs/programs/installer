@@ -1,0 +1,14 @@
+#!/bin/sh
+. /etc/os-release
+
+echo -e "\033[0;37mWelcome to $PRETTY_NAME Installer.\n\033[0;33mWarning!\033[0;37m Installer may be unstable!"
+
+read -p "Installation disk: " disk
+
+read -p "Is this ok? (y/n): $PRETTY_NAME, Installation disk: $disk: " yn
+
+if  [ $yn = "y" ]; then
+	dd if=/inst/installation.iso of=$disk || echo "	\033[31mError installing $PRETTY_NAME on $disk. Try other drive or $NAME version.\033[0;37m"
+else
+	break
+fi
