@@ -1,0 +1,23 @@
+#!/bin/sh
+
+cd /programs
+clear
+
+while :
+do
+	clear
+	date +"%H:%M:%S"
+	printf "===========================================\n"
+	printf "\033[1;32mPROGRAMS\033[1;37m\n"
+	ls
+	printf "===========================================\n"
+	printf ">"
+	read cmd
+	
+	if [ "$cmd" = "version" ]; then
+		/bin/progwidesk-cmd/version
+	else
+		./$cmd
+		sleep 1
+	fi
+done
