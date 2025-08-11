@@ -1,0 +1,23 @@
+#!/bin/sh
+
+mount -t proc none /proc
+mount -t sysfs none /sys
+mount -t devtmpfs none /dev
+
+modprobe squashfs
+modprobe loop
+
+mkdir /progwifs
+
+mount -o loop /squashfs/filesystem.squashfs /progwifs
+
+if [ $? -ne 0 ]; then
+	echo -e "\033[1;37mWelcome to \033[1;34mProgwilinux\033[1;37m!\033[0;37m"
+	echo "Squashfs not mounted. Loading into initramfs."
+	exec /bin/progwish
+fi
+
+echo -e "\033[1;37mWelcome to \033[1;34mProgwilinux\033[1;37m!\033[0;37m"
+
+cd /progwifs
+exec chroot . /sbin/init
