@@ -1,4 +1,4 @@
-![🐧 Progwilinux](https://github.com/progwi0/progwilinux/blob/site/progwilinuxtextlogo.png)
+![🐧 Progwilinux](https://github.com/progwi0/progwilinux/blob/site/progwilinuxlogotext.png)
 🐧 Простий та навчальний.
 
 ![Вдача, але прийшлося пійти на BIOS.](https://github.com/progwi0/progwilinux/blob/site/img/screenshot05.png)
