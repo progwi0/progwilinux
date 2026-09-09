@@ -1,5 +1,5 @@
 ![🐧 Progwilinux](https://github.com/progwi0/progwilinux/blob/site/progwilinuxlogotext.png)
-🐧 Простий та навчальний.
+🐧 Малий у розмірі, з поутжністю Arch.
 
 ![Вдача, але прийшлося пійти на BIOS.](https://github.com/progwi0/progwilinux/blob/site/img/screenshot05.png)
 
