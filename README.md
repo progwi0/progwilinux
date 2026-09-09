@@ -1,29 +1,29 @@
 ![🐧 Progwilinux](https://github.com/progwi0/progwilinux/blob/site/progwilinuxlogotext.png)
-🐧 Малий у розмірі, з поутжністю Arch.
+🐧 Small in size, with power of Arch.
 
-![Вдача, але прийшлося пійти на BIOS.](https://github.com/progwi0/progwilinux/blob/site/img/screenshot05.png)
+![Success, but we moved on BIOS.](https://github.com/progwi0/progwilinux/blob/site/img/screenshot05.png)
 
-## 🤷 Чому Progwilinux?
-1. Його розмір приблизно 400МБ.
-2. Його легко розібрати і вивчити.
-3. Він запуститься на всіх комп'ютерах.
+## 🤷 Why Progwilinux?
+1. Image size is 500MB.
+2. It's educational simple.
+3. Ts probably runs on every PC.
 
-![Завантаження.](https://github.com/progwi0/progwilinux/blob/site/img/screenshot03.png)
+![Loading.](https://github.com/progwi0/progwilinux/blob/site/img/screenshot03.png)
 
-## 🖥️ Системні вимоги:
-1. Оперативна пам'ять: 4ГБ+.
-2. Ядра CPU: 2+.
-3. Флеш-накопичувач: 4ГБ+.
+## 🖥️ System requirements:
+1. RAM: 4GB+.
+2. CPU Cores: 2+.
+3. Flash drive: 4GB+.
 
-![Меню GRUB.](https://github.com/progwi0/progwilinux/blob/site/img/screenshot01.png)
+![GRUB Menu.](https://github.com/progwi0/progwilinux/blob/site/img/screenshot01.png)
 
-## 😃 "Як я можу допомогти?"
-Ти можеш робити/збирати програми для Progwilinux.
+## 😃 "I want to help, what should i do?"
+You can make programs for Progwilinux.
 
-Вимоги:
-1. Треба щоб програма була зібрана статично.
-2. Якщо ти пишеш скрипт, мінімізуй залежності.
+Requirements:
+1. Make it STATICALLY.
+2. Minimize dependencies.
 
-Якщо програма/скрипт буде статичним, то мені легше буде додати її/його у нову версію.
+If program/script is static, everything will be ok and i can add it in new Progwilinux version.
 
-Також ти можеш давати ідеї! Просто створи нову дискуссію на https://progwilinux.flarum.cloud/!
+Also you can give me ideas! Just start new discussion on https://progwilinux.flarum.cloud/!
