@@ -1,29 +1,50 @@
-# 🐧 Progwilinux
-🐧 Простий та навчальний.
+---
 
-![screenshot6](https://github.com/progwi0/progwilinux/blob/4b0e31c220967783110fc23a72e68bbcbd9010ad/img/screenshot6.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/progwi0/progwilinux/site/progwilinuxlogotext.png">
+  <span>🐧 Small in size, with power of Arch.</span>
 
-## 🤷 Чому Progwilinux?
-1. Його розмір приблизно 400МБ.
-2. Його легко розібрати і вивчити.
-3. Він запуститься на всіх комп'ютерах.
+  <br />
+  <br />
 
-![screenshot5](https://github.com/progwi0/progwilinux/blob/4b0e31c220967783110fc23a72e68bbcbd9010ad/img/screenshot5.png)
+  ![License](https://img.shields.io/badge/License%20-%20GPL%203.0%20-%20%23fcba03?style=plastic&logoColor=span)
+  ![Curver](https://img.shields.io/badge/Current%20version%20-%2026.4%20-%20%23ffaa00?style=plastic&logoColor=span)
+  ![Status](https://img.shields.io/badge/Status%20-%20Beta%20-%20%23ff6200?style=plastic&logoColor=span)
+</div>
 
-## 🖥️ Системні вимоги:
-1. Оперативна пам'ять: 4ГБ+.
-2. Ядра CPU: 2+.
-3. Флеш-накопичувач: 4ГБ+.
+---
 
-![screenshot4](https://github.com/progwi0/progwilinux/blob/4b0e31c220967783110fc23a72e68bbcbd9010ad/img/screenshot4.png)
+<div align="center">
+  <h3>📄 Overview</h3>
+</div>
 
-## 😃 "Як я можу допомогти?"
-Ти можеш робити/збирати програми для Progwilinux.
+**Progwilinux** is an operating system based on the Linux kernel (see [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution)).
 
-Вимоги:
-1. Треба щоб програма була зібрана статично.
-2. Якщо ти пишеш скрипт, мінімізуй залежності.
+At the moment, this system does not have a clearly defined purpose, so it is being developed for everyone. 😁
 
-Якщо програма/скрипт буде статичним, то мені легше буде додати її/його у нову версію.
+---
 
-Також ти можеш давати ідеї! Просто створи нову дискуссію на https://progwilinux.flarum.cloud/!
+<div align="center">
+  <h3>🖥️ System requirements</h3>
+</div>
+
+**Progwilinux** has fairly high hardware requirements, but don’t be alarmed - these are just conservative estimates.
+
+So, here are the requirements themselves:
+
+- 🐑 **RAM:** 4GB+ *(so much, because **Progwilinux** installation media loads into RAM.)*
+- 🔌 **Firmware:** UEFI *(you can use BIOS, but we're testing **Progwilinux** only on UEFI machines.)*
+- 🧠 **CPU cores:** 2+
+- 💾 **Flash drive:** 4GB+
+
+---
+
+<div align="center">
+  <h3>🤔 Why Progwilinux?</h3>
+</div>
+
+**Progwilinux** might be a good fit for you if you’re tired of resource-heavy operating systems or simply want to try something new. It could also be a suitable choice if you have a relatively low-end computer - provided it’s not completely underpowered.
+
+In other cases, you’ll likely need to look into different [Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution). 😔
+
+---
