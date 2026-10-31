@@ -1,0 +1,11 @@
+NAME="Progwilinux Unstable"
+PRETTY_NAME="Progwilinux Unstable"
+ID=progwilinux
+ID_LIKE=arch
+BUILD_ID="Unstable"
+VERSION_ID="Unstable"
+ANSI_COLOR="38;2;158;206;106"
+HOME_URL="https://progwi0.pp.ua/"
+DOCUMENTATION_URL="https://example.com/"
+SUPPORT_URL="https://example.com/"
+BUG_REPORT_URL="https://github.com/progwi0/progwilinux/issues"
