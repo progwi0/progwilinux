@@ -8,4 +8,8 @@ sbundle=$(dialog --title "Software bundle choosing." --radiolist "Select softwar
 
 if [ "$sbundle" = "1" ]; then
     PACKAGES="busybox filesystem glibc dash ncurses mc htop dialog nano"
+elif [ "$sbundle" = "2" ]; then
+    PACKAGES="busybox filesystem glibc dash mc nano"
+elif [ "$sbundle" = "3" ]; then
+    PACKAGES="busybox filesystem glibc dash ncurses mc htop dialog nano gcc ruby"
 fi
