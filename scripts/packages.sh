@@ -13,13 +13,13 @@ if [ $? -ne 0 ] || [ -z "$sbundle" ]; then
 fi
 
 if [ "$sbundle" = "1" ]; then
-    packages="busybox filesystem glibc dash ncurses mc htop dialog nano"
+    packages="coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd w3m"
 elif [ "$sbundle" = "2" ]; then
-    packages="busybox filesystem glibc dash mc nano"
+    packages="coreutils filesystem glibc superfile tmux vim pacman eza zoxide dust duf fd"
 elif [ "$sbundle" = "3" ]; then
-    packages="busybox filesystem glibc dash ncurses mc htop dialog nano gcc ruby"
+    packages="coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd gcc rust python w3m"
 elif [ "$sbundle" = "4" ]; then
-    packages=$(dialog --title "Software bundle choosing." --inputbox "Select software bundle." 7 40 "busybox filesystem glibc dash mc nano" 3>&1 1>&2 2>&3)
+    packages=$(dialog --title "Software bundle choosing." --inputbox "Select software bundle." 7 40 "coreutils filesystem glibc superfile tmux vim pacman eza zoxide dust duf fd" 3>&1 1>&2 2>&3)
 
     if [ $? -ne 0 ] || [ -z "$packages" ]; then
         clear
