@@ -1,3 +1,4 @@
 justfile linguist-language=Just
-*.conf linguist-language=YAML
+limine.conf linguist-language=YAML
+os-release linguist-language=Shell
 *.sh linguist-language=Shell
