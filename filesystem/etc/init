@@ -1,0 +1,19 @@
+#!/bin/sh
+
+. /etc/os-release
+
+mount -t proc proc /proc
+mount -t devtmpfs devtmpfs /dev
+mount -t sysfs sysfs /sys
+mount -t tmpfs tmpfs /tmp
+
+exec 0</dev/console
+exec 1>/dev/console
+exec 2>/dev/console
+
+clear
+
+echo "Welcome to $PRETTY_NAME!"
+echo "To start installation, enter 'programs' directory and start 'plinst'."
+
+exec /bin/sh -i
