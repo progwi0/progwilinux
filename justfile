@@ -11,5 +11,8 @@ packages:
     ./scripts/packages.sh
 copy:
     cp -r filesystem/. tmp
+initramfs:
+    mkdir -p dist
+    (cd tmp && find . | cpio -o -H newc | gzip -9) > dist/initramfs.igz
 test:
     qemu-system-x86_64 -m 4096 -cdrom dist/progwilinux-unstable.iso -bios /usr/share/ovmf/x64/OVMF.4m.fd -enable-kvm
