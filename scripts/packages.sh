@@ -13,13 +13,13 @@ if [ $? -ne 0 ] || [ -z "$sbundle" ]; then
 fi
 
 if [ "$sbundle" = "1" ]; then
-    packages="coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd w3m tgpt linux-firmware"
+    packages="coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd w3m tgpt linux-firmware ruby"
 elif [ "$sbundle" = "2" ]; then
-    packages="coreutils filesystem glibc superfile tmux vim pacman eza zoxide dust duf fd linux-firmware"
+    packages="coreutils filesystem glibc superfile tmux vim pacman eza zoxide dust duf fd linux-firmware ruby"
 elif [ "$sbundle" = "3" ]; then
-    packages="coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd gcc rust python w3m tgpt linux-firmware"
+    packages="coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd gcc rust crystal python w3m tgpt linux-firmware taskwarrior-tui ruby"
 elif [ "$sbundle" = "4" ]; then
-    packages=$(dialog --title "Software bundle choosing." --inputbox "Select software bundle." 7 40 "coreutils filesystem glibc superfile tmux vim pacman eza zoxide dust duf fd" 3>&1 1>&2 2>&3)
+    packages=$(dialog --title "Software bundle choosing." --inputbox "Select software bundle." 7 40 "coreutils filesystem glibc superfile tmux vim pacman eza zoxide dust duf fd linux-firmware ruby" 3>&1 1>&2 2>&3)
 
     if [ $? -ne 0 ] || [ -z "$packages" ]; then
         clear
