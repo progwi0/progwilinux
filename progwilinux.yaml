@@ -1,0 +1,5 @@
+image:
+  bootloader: "limine"
+packages:
+  bundle: "default"
+  packages: "0"

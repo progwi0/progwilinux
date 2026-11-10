@@ -2,3 +2,4 @@ justfile linguist-language=Just
 limine.conf linguist-language=YAML
 os-release linguist-language=Shell
 *.sh linguist-language=Shell
+*.rb linguist-language=Ruby

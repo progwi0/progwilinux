@@ -16,4 +16,4 @@ clear
 echo "Welcome to $PRETTY_NAME!"
 echo "To start installation, enter 'programs' directory and start 'plinst'."
 
-exec /bin/sh -i
+exec /bin/bash -i

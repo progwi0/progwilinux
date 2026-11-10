@@ -7,8 +7,8 @@
 
 # Default aliases
 
+eval "$(zoxide init bash)"
 alias ls='eza'
-alias cd='z'
 
 alias ..='cd ..'
 alias ...='cd ../..'
