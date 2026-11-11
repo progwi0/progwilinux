@@ -5,7 +5,7 @@ build:
     sudo chown -R $USER:$USER tmp
     sudo chmod -R 777 tmp
 
-    cp -r filesystem/. tmp
+    cp -r filesystem/* tmp
     (cd tmp && find . | cpio -o -H newc | gzip -9) > dist/initramfs.igz
 
     mkdir -p image/initramfs
