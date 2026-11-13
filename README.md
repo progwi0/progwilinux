@@ -1,7 +1,7 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/progwi0/progwilinux/site/progwilinuxlogotext.png">
+  <img src="https://raw.githubusercontent.com/progwi0/progwilinux/site/logos/fourth-text.png">
   <span>🐧 Small in size, with power of Arch.</span>
 
   <br />
