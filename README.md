@@ -1,5 +1,3 @@
----
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/progwi0/progwilinux/site/logos/fourth-text.png">
   <span>🐧 Small in size, with power of Arch.</span>
@@ -46,5 +44,3 @@ So, here are the requirements themselves:
 **Progwilinux** might be a good fit for you if you’re tired of resource-heavy operating systems or simply want to try something new. It could also be a suitable choice if you have a relatively low-end computer - provided it’s not completely underpowered.
 
 In other cases, you’ll likely need to look into different [Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution). 😔
-
----
