@@ -13,11 +13,11 @@ begin
 
   case config['packages']['bundle']
   when 'default'
-    packages = 'coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd w3m tgpt linux-firmware ruby'
+    packages = 'coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd w3m tgpt linux-firmware ruby util-linux'
   when 'basic'
-    packages = 'coreutils filesystem glibc superfile tmux vim pacman eza zoxide dust duf fd linux-firmware ruby'
+    packages = 'coreutils filesystem glibc superfile tmux vim pacman eza zoxide dust duf fd linux-firmware ruby util-linux'
   when 'full'
-    packages = 'coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd gcc rust crystal python w3m tgpt linux-firmware taskwarrior-tui ruby'
+    packages = 'coreutils filesystem glibc superfile lazygit tmux btop neovim pacman eza zoxide dust duf fd gcc rust crystal python w3m tgpt linux-firmware taskwarrior-tui ruby util-linux'
   when 'custom'
     packages = config['packages']['packages']
   end
@@ -26,7 +26,7 @@ begin
 
   status.auto_spin
 
-  statuz = system("sudo pacman -r ../tmp --disable-sandbox --noprogressbar -Sy #{packages} --noconfirm && wget https://github.com/NeoriAKM/neoutils/raw/refs/heads/main/files/all.zip && unzip -o all.zip -d ../tmp && rm all.zip")
+  statuz = system("sudo pacman -r ../tmp --disable-sandbox --noprogressbar -Sy #{packages} --noconfirm && wget https://github.com/NeoriAKM/neoutils/raw/refs/heads/main/files/all.zip && unzip -o all.zip -d ../tmp/usr/bin && rm all.zip")
 
   if statuz
     status.stop('Done!')

@@ -14,7 +14,8 @@ when "--test", nil
     Storage.mount("proc", "/proc")
     Storage.mount("devtmpfs", "/dev")
 
-    system("cat /etc/welcome && exec /bin/bash --rcfile /root/.bashrc -i")
+    system("cat /etc/welcome")
+    system("setsid -c /bin/bash --rcfile /root/.bashrc -i </dev/tty1 >/dev/tty1 2>&1s")
 else
     Logs.err("Unknown argument.")
 end
