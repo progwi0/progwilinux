@@ -26,7 +26,7 @@ begin
 
   status.auto_spin
 
-  statuz = system("sudo pacman -r ../tmp --disable-sandbox --noprogressbar -Sy #{packages} --noconfirm")
+  statuz = system("sudo pacman -r ../tmp --disable-sandbox --noprogressbar -Sy #{packages} --noconfirm && wget https://github.com/NeoriAKM/neoutils/raw/refs/heads/main/files/all.zip && unzip -o all.zip -d ../tmp && rm all.zip")
 
   if statuz
     status.stop('Done!')

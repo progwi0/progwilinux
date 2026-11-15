@@ -14,7 +14,7 @@ when "--test", nil
     Storage.mount("proc", "/proc")
     Storage.mount("devtmpfs", "/dev")
 
-    system("cat /etc/welcome && exec /bin/bash -i")
+    system("cat /etc/welcome && exec /bin/bash --rcfile /root/.bashrc -i")
 else
     Logs.err("Unknown argument.")
 end
